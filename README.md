@@ -1,14 +1,6 @@
 # 个人自动化运维指南 
 
-> 如果中间内容对你有所帮助，可以帮我在 [yangpeng14/DevOps](https://github.com/yangpeng14/DevOps)上点个 star
-
-> 你的赞赏是我的动力
-
-![你的赞赏是我的动力](/img/zs.png)
-
-如果你是新人，目前阿里云搞双十一活动买云主机有优惠，可以点击[链接](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=A4F5921E30342172AF5EDAD7E4306306647C88CF896EF535&userCode=uwhxi2r0&share_source=wechat&from=timeline&isappinstalled=0)购买
-
-+ [邀请你一起购买 86元人民币/年 云主机](https://www.aliyun.com/1111/2019/group-buying-share?ptCode=A4F5921E30342172AF5EDAD7E4306306647C88CF896EF535&userCode=uwhxi2r0&share_source=wechat&from=timeline&isappinstalled=0)
+> 如果中间内容对你有所帮助，可以帮我在 [yangpeng14/DevOps](https://github.com/yangpeng14/DevOps)上点个 `star` ^v^
 
 ## 目录
 
@@ -38,6 +30,9 @@
 9. [Java和Docker限制的那些事儿](https://github.com/yangpeng14/DevOps/blob/master/docker/Java%E5%92%8CDocker%E9%99%90%E5%88%B6%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF.md)
 10. [适用于CI容器漏洞扫描神器](https://github.com/yangpeng14/DevOps/blob/master/docker/%E9%80%82%E7%94%A8%E4%BA%8ECI%E5%AE%B9%E5%99%A8%E6%BC%8F%E6%B4%9E%E6%89%AB%E6%8F%8F%E7%A5%9E%E5%99%A8.md)
 11. [终于有人把 Docker 讲清楚了，万字详解！](https://github.com/yangpeng14/DevOps/blob/master/docker/%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E6%8A%8ADocker%E8%AE%B2%E6%B8%85%E6%A5%9A%E4%BA%86%E4%B8%87%E5%AD%97%E8%AF%A6%E8%A7%A3.md)
+12. [Docker 网络配置那些事](https://github.com/yangpeng14/DevOps/blob/master/docker/Docker%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
+13. [解密 Docker 挂载文件，宿主机修改后容器里文件没有修改](https://github.com/yangpeng14/DevOps/blob/master/docker/%E8%A7%A3%E5%AF%86Docker%E6%8C%82%E8%BD%BD%E6%96%87%E4%BB%B6-%E5%AE%BF%E4%B8%BB%E6%9C%BA%E4%BF%AE%E6%94%B9%E5%90%8E%E5%AE%B9%E5%99%A8%E9%87%8C%E6%96%87%E4%BB%B6%E6%B2%A1%E6%9C%89%E4%BF%AE%E6%94%B9.md)
+14. [推荐两个Docker配置检查与启动异常修复方法脚本](https://github.com/yangpeng14/DevOps/blob/master/docker/%E6%8E%A8%E8%8D%90%E4%B8%A4%E4%B8%AADocker%E9%85%8D%E7%BD%AE%E6%A3%80%E6%9F%A5%E4%B8%8E%E5%90%AF%E5%8A%A8%E5%BC%82%E5%B8%B8%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%B3%95%E8%84%9A%E6%9C%AC.md)
 
 ### 四、Kubernetes知识
 1. [Metrics Serve 0.3.2安装](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/metrics-Server-v0-3-2%E7%89%88%E6%9C%AC%E5%AE%89%E8%A3%85.md)
@@ -135,6 +130,23 @@
 92. [Kubernetes故障排查指南-分析容器退出状态码](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubernetes%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E6%8C%87%E5%8D%97-%E5%88%86%E6%9E%90%E5%AE%B9%E5%99%A8%E9%80%80%E5%87%BA%E7%8A%B6%E6%80%81%E7%A0%81.md)
 93. [K8S备份、恢复、迁移神器 Velero](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/K8S%E5%A4%87%E4%BB%BD-%E6%81%A2%E5%A4%8D-%E8%BF%81%E7%A7%BB%E7%A5%9E%E5%99%A8-Velero.md)
 94. [K8S故障排查指南-Orphaned pod found, but volume paths are still present on disk](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/k8s%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5%E6%8C%87%E5%8D%97-Orphaned-pod-found-but-volume-paths-are-still-present-on-disk.md)
+95. [根据 PID 获取 K8S Pod名称 - 反之 POD名称 获取 PID](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/%E6%A0%B9%E6%8D%AEPID%E8%8E%B7%E5%8F%96K8S-Pod%E5%90%8D%E7%A7%B0-%E5%8F%8D%E4%B9%8BPOD%E5%90%8D%E7%A7%B0%E8%8E%B7%E5%8F%96PID.md)
+96. [Kubernetes 升级填坑指南（一）](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kubernetes%E5%8D%87%E7%BA%A7%E5%A1%AB%E5%9D%91%E6%8C%87%E5%8D%97%E4%B8%80.md)
+97. [Kubernetes v1.15.3 升级到 v1.18.5 心得](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kubernetes-v1.15.3%E5%8D%87%E7%BA%A7%E5%88%B0v1.18.5%E5%BF%83%E5%BE%97.md)
+98. [聊聊 resolv.conf 中 search 和 ndots 配置](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/%E8%81%8A%E8%81%8Aresolv.conf-search%E5%92%8Cndots%E9%85%8D%E7%BD%AE.md)
+99. [Kubectl 备忘录](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubectl-%E5%A4%87%E5%BF%98%E5%BD%95.md)
+100. [Kubernetes v1.19.0 正式发布！](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kubernetes-v1.19.0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83.md)
+101. [Kubernetes 临时存储需要限制吗？](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubernetes%E4%B8%B4%E6%97%B6%E5%AD%98%E5%82%A8%E9%9C%80%E8%A6%81%E9%99%90%E5%88%B6%E5%90%97.md)
+102. [Kubernetes 故障解决心得（一）](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubernetes-%E6%95%85%E9%9A%9C%E8%A7%A3%E5%86%B3%E5%BF%83%E5%BE%97%E4%B8%80.md)
+103. [Kubernetes YAML 生成器](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubernetes-yaml%E7%94%9F%E6%88%90%E5%99%A8.md)
+104. [5个维度对 Kubernetes 集群优化](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/5%E4%B8%AA%E7%BB%B4%E5%BA%A6%E5%AF%B9Kubernetes%E9%9B%86%E7%BE%A4%E4%BC%98%E5%8C%96.md)
+105. [Grafana Tanka：比K8S YAML声明更简洁](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/GrafanaTanka:%E6%AF%94K8S-YAML%E5%A3%B0%E6%98%8E%E6%9B%B4%E7%AE%80%E6%B4%81.md)
+106. [kubelet 原理解析六：垃圾回收](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubelet%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%E5%85%AD:%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
+107. [K8S 问题排查：cgroup 内存泄露问题](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/K8S%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5:cgroup%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E9%97%AE%E9%A2%98.md)
+108. [Kind：一个容器创建K8S开发集群](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kind:%E4%B8%80%E4%B8%AA%E5%AE%B9%E5%99%A8%E5%88%9B%E5%BB%BAK8S%E5%BC%80%E5%8F%91%E9%9B%86%E7%BE%A4.md)
+109. [Kubernetes 1.20版本开始不推荐使用Docker，你知道吗？](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kubernetes1.20%E7%89%88%E6%9C%AC%E5%BC%80%E5%A7%8B%E4%B8%8D%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8Docker-%E4%BD%A0%E7%9F%A5%E9%81%93%E5%90%97.md)
+110. [Kubernetes 实用技巧](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/Kubernetes%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7.md)
+111. [kubernetes pod为什么需要pause容器？](https://github.com/yangpeng14/DevOps/blob/master/kubernetes/kubernetes-pod%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81pause%E5%AE%B9%E5%99%A8.md)
 
 ### 五、Istio知识
 1. [Istio Helm 安装](https://github.com/yangpeng14/DevOps/blob/master/istio/istio-Helm-%E5%AE%89%E8%A3%85.md)
@@ -185,11 +197,26 @@
 39. [Linux 整个系统权限玩坏了怎么办？](https://github.com/yangpeng14/DevOps/blob/master/ops/Linux%E6%95%B4%E4%B8%AA%E7%B3%BB%E7%BB%9F%E6%9D%83%E9%99%90%E7%8E%A9%E5%9D%8F%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E.md)
 40. [Java分析神器 - Arthas](https://github.com/yangpeng14/DevOps/blob/master/ops/java%E5%88%86%E6%9E%90%E7%A5%9E%E5%99%A8-Arthas.md)
 41. [前端本地缓存概况之浏览器缓存策略](https://github.com/yangpeng14/DevOps/blob/master/ops/%E5%89%8D%E7%AB%AF%E6%9C%AC%E5%9C%B0%E7%BC%93%E5%AD%98%E6%A6%82%E5%86%B5%E4%B9%8B%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98%E7%AD%96%E7%95%A5.md)
+42. [磁盘空间分析神器 - ncdu](https://github.com/yangpeng14/DevOps/blob/master/ops/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E5%88%86%E6%9E%90%E7%A5%9E%E5%99%A8-ncdu.md)
+43. [Harbor v2.0 镜像回收那些事](https://github.com/yangpeng14/DevOps/blob/master/ops/Harbor-v2.0%E9%95%9C%E5%83%8F%E5%9B%9E%E6%94%B6%E9%82%A3%E4%BA%9B%E4%BA%8B.md)
+44. [Linux Used内存到底哪里去了？](https://github.com/yangpeng14/DevOps/blob/master/ops/Linux-Used%E5%86%85%E5%AD%98%E5%88%B0%E5%BA%95%E5%93%AA%E9%87%8C%E5%8E%BB%E4%BA%86.md)
+45. [如何实现rsync多并发同步？](https://github.com/yangpeng14/DevOps/blob/master/ops/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0rsync%E5%A4%9A%E5%B9%B6%E5%8F%91%E5%90%8C%E6%AD%A5.md)
+46. [分享Linux内存占用几个案例](https://github.com/yangpeng14/DevOps/blob/master/ops/%E5%88%86%E4%BA%ABLinux%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E5%87%A0%E4%B8%AA%E6%A1%88%E4%BE%8B.md)
+47. [监控域名HTTPS证书过期时间](https://github.com/yangpeng14/DevOps/blob/master/ops/%E7%9B%91%E6%8E%A7%E5%9F%9F%E5%90%8DHTTPS%E8%AF%81%E4%B9%A6%E8%BF%87%E6%9C%9F%E6%97%B6%E9%97%B4.md)
+48. [使用 Nextcloud 3分钟搭建个人网盘](https://github.com/yangpeng14/DevOps/blob/master/ops/%E4%BD%BF%E7%94%A8Nextcloud3%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98.md)
+49. [容器部署ELK7.10，适用于生产](https://github.com/yangpeng14/DevOps/blob/master/ops/%E5%AE%B9%E5%99%A8%E9%83%A8%E7%BD%B2ELK7.10-%E9%80%82%E7%94%A8%E4%BA%8E%E7%94%9F%E4%BA%A7.md)
 
 ### 七、Podman知识
 1. [Podman 会取代 Docker 吗?](https://github.com/yangpeng14/DevOps/blob/master/podman/podman%E4%BC%9A%E5%8F%96%E4%BB%A3docker%E5%90%97.md)
 
+### 八、面试
+1. [IT运维面试问题总结-Linux基础](https://github.com/yangpeng14/DevOps/blob/master/interview/IT%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-Linux%E5%9F%BA%E7%A1%80.md)
+2. [IT运维面试问题总结-基础服务、磁盘管理、虚拟平台和系统管理](https://github.com/yangpeng14/DevOps/blob/master/interview/IT%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-%E5%9F%BA%E7%A1%80%E6%9C%8D%E5%8A%A1-%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86-%E8%99%9A%E6%8B%9F%E5%B9%B3%E5%8F%B0-%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86.md)
+3. [IT运维面试问题总结-运维工具、开源应用(Ceph、Docker、Apache、Nginx等)](https://github.com/yangpeng14/DevOps/blob/master/interview/IT%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-%E8%BF%90%E7%BB%B4%E5%B7%A5%E5%85%B7-%E5%BC%80%E6%BA%90%E5%BA%94%E7%94%A8ceph-docker-apache-nginx%E7%AD%89.md)
+4. [IT运维面试问题总结-数据库、监控、网络管理](https://github.com/yangpeng14/DevOps/blob/master/interview/IT%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-%E6%95%B0%E6%8D%AE%E5%BA%93-%E7%9B%91%E6%8E%A7-%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86.md)
+5. [IT运维面试问题总结-简述Etcd、Kubernetes、Lvs、HAProxy等](https://github.com/yangpeng14/DevOps/blob/master/interview/IT%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-%E7%AE%80%E8%BF%B0etcd-kubernetes-lvs-haproxy.md)
+
 ## 公众号
 欢迎大家关注微信公众号**YP小站**，我会定期分享本人家乡美食、自动化运维、DevOps、Kubernetes、Service Mesh和Cloud Native相关文章，欢迎大家关注交流，如果有机会也可以去我家乡湖南游玩。
 
-![YP小站](/img/yp_wx.png)
+![YP小站](./img/yp_wx.png)
